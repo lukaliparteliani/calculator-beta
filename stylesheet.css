@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
+.calculator-container {
+    width:500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: #353535;
+    border-radius: 20px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+.calculator-behind {
+    position: absolute;
+    z-index: -1;
+    background-color: #353535;
+    opacity: 0.7;
+    width: 500px;
+    height: 600px;
+    left: 231px;
+    border-radius: 21px;
+}
+
+.calculator-input {
+    height: 50px;
+    border-radius: 20px;  
+    background-color: white;
+    margin: 40px 40px 0 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-self: stretch;
+    transition: all 400ms ease-in;
+}
+
+.calculator-input p, .calculator-input p {
+    opacity: 1;
+    transition: all 300ms ease-in;
+}
+
+.calculator-input h1 {
+    transition: all 600ms ease-in;
+    opacity: 0;
+}
+
+.calculator-input p {
+    animation: blinker 1s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calculator-input span {
+    margin-bottom: 3px;
+}
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .calculator-body {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+  }
+
+  .number:last-child {
+    grid-column-start: 2;
+   }
+
+   .number, .calculator-functions > div {
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 9px #999;
+    transition: all 100ms ease-in;
+  }
+  
+  .number:hover, .calculator-functions > div:hover {background-color: #3e8e41}
+  
+  .number:active, .calculator-functions > div:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .number {
+    border-radius: 100%;
+    background-color: beige;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .calculator-functions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+  }
+
+  .calculator-functions > div {
+    border-radius: 100%;
+    background-color: beige;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
