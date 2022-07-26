@@ -52,7 +52,6 @@ functions.forEach(function(elem) {
                 numbersList.unshift(savedNumber);
                 selectedNumber.innerHTML = '';
                 calculate(elem.className);
-        }else if (elem.className == 'multiply') {
         }
     });
 });
