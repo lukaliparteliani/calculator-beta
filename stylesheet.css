@@ -1,4 +1,6 @@
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -27,6 +29,7 @@ body {
 .screen {
     height: 50px;
     border-radius: 20px;  
+    overflow: hidden;
     background-color: white;
     margin: 40px 40px 0 40px;
     display: flex;
