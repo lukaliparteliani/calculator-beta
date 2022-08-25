@@ -64,6 +64,8 @@ body {
     display: flex;
     gap: 10px;
     margin: 10px;
+    justify-content: center;
+    align-items: center;
   }
 
   .calc-row:first-child {
