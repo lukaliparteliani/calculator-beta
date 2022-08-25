@@ -24,6 +24,7 @@ body {
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
+    touch-action: manipulation;
 }
 
 .complement {
@@ -52,6 +53,7 @@ body {
     font-weight: bold;
     align-self: stretch;
     transition: all 400ms ease-in;
+    touch-action: manipulation;
 }
 
   .calc-buttons {
