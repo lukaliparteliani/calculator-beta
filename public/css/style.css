@@ -25,6 +25,17 @@ body {
     margin-right: auto;
 }
 
+.complement {
+  color: rgb(240, 196, 76);
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0;
+  opacity: 0;
+  font-style: italic;
+  text-transform: uppercase;
+  transition: all 300ms linear;
+}
+
 .screen {
     height: 50px;
     border-radius: 20px;  

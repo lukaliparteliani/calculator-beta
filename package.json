@@ -1,0 +1,24 @@
+{
+  "name": "calculator-beta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaliparteliani/calculator-beta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaliparteliani/calculator-beta/issues"
+  },
+  "homepage": "https://github.com/lukaliparteliani/calculator-beta#readme",
+  "dependencies": {
+    "complimenter": "github:grantcodes/complimenter",
+    "express": "^4.18.1"
+  }
+}
