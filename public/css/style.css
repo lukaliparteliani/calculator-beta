@@ -103,6 +103,7 @@ body {
     box-shadow: 0 9px #98C;
     transition: all 100ms ease-in;
     font-weight: bold;
+    flex: 1;
   }
 
   .calc-row:first-child .calc-button {
