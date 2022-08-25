@@ -81,7 +81,6 @@ body {
     background-color: #c9c9c9;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-    height: 0;
   }
 
   .calc-button {
